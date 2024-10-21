@@ -4,7 +4,7 @@ import 'dotenv/config';
 
 // URL e chave de API do AnythingLLM (recomenda-se armazenar em variáveis de ambiente)
 const ANYTHING_LLM_API_URL = process.env.ANYTHING_LLM_API_URL || 'http://localhost:3001/api/v1';
-const ANYTHING_LLM_API_KEY = process.env.ANYTHING_LLM_API_KEY || 'RWZYEP6-MXG4RS1-HYFM27X-VKYTYVM';
+const ANYTHING_LLM_API_KEY = process.env.ANYTHING_LLM_API_KEY || '';
 
 export class TeamsBot extends TeamsActivityHandler {
   constructor() {

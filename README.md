@@ -30,8 +30,8 @@ Este bot foi desenvolvido usando o Teams Toolkit e utiliza TypeScript para sua i
 
 1. **Clone o repositório:**
    ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd <NOME_DO_PROJETO>
+   git clone https://github.com/victorsouzadev/teste-bot-teams.git
+   cd teste-bot-teams
    ```
 
 2. **Instale as dependências:**
@@ -42,13 +42,13 @@ Este bot foi desenvolvido usando o Teams Toolkit e utiliza TypeScript para sua i
 3. **Configuração das Variáveis de Ambiente:**
    Crie um arquivo `.env` na pasta `env` e adicione as seguintes variáveis:
    ```env
-   ANYTHING_LLM_API_URL=http://localhost:3001/api/v1
+   ANYTHING_LLM_API_URL=<SUA_URL_DA_API>
    ANYTHING_LLM_API_KEY=<SUA_CHAVE_DE_API>
    ```
 
 4. **Execute o bot localmente:**
    ```bash
-   npm start
+   npm run dev:teamsfx:testtool
    ```
    Isso iniciará o servidor local e conectará o bot ao Microsoft Teams através do Teams Toolkit.
 
